@@ -4,10 +4,12 @@ public class MovieManager {
     private int limit;
 
     public MovieManager() {
+
         this.limit = 5;
     }
 
     public MovieManager(int limit) {
+
         this.limit = limit;
     }
 
@@ -21,6 +23,7 @@ public class MovieManager {
     }
 
     public String[] findAll() {
+
         return movies;
     }
 
